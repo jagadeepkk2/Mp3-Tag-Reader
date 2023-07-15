@@ -2,7 +2,9 @@
 MP3 tag reader is a software which will read and display MP3 (ID3) tag
 information from MP3 files. The software will be desktop based and not web
 based.
+
 About (mp3) ID3 tag
+
 ID3 is a metadata container most often used in conjunction with the MP3
 audio file format. It allows information such as the title, artist, album, track
 number, and other information about the file to be stored in the file itself.
@@ -23,26 +25,4 @@ tag. Typically ID3v2 tags are found at the beginning of an MP3 file but this is
 not an absolute restriction. What happens next depends on the subversion of
 the ID3v2 tag. As far as we can tell, there have been three versions so far: 2,3
 and 4.
-ID3v2 header
-ID3v2/file identifier "ID3"
-ID3v2 version$03 00 (2, 3 or 4)
-ID3v2 flags%abc00000
-ID3v2 size4 * %0xxxxxxx (Total size of ID3 tag)
-ID3v2.2 Frame header
-Frame ID
-$xx xx xx(Three characters)
-eg:TAL
-Album/Movie/Show title
-TOA
-Size
-Original artist(s)/performer(s)
-$xx xx xx(Three characters)
-ID3v2.3 or ID3v2.4 Frame header
-Frame ID
-$xx xx xx xx (Four characters)
-eg: TALB
-TIT2
-Album/Movie/Show title
-Title/songname/content description
-Size$xx xx xx xx (Four characters)
-Flags$xx xx
+
